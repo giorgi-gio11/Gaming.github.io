@@ -1,0 +1,36 @@
+/* Add this CSS code to your existing CSS file or create a new one */
+
+/* Styling for the link */
+.link-to-video {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .link-to-video:hover {
+    background-color: #666;
+  }
+  
+  /* Styling for the video page */
+  .video-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+  }
+  
+  .video-container {
+    max-width: 800px;
+  }
+  
+  /* Styling for the video */
+  .video-container video {
+    width: 100%;
+    height: auto;
+  }
+  
